@@ -1,0 +1,82 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body{
+	background-color:lightgrey;
+}
+
+header{
+	background-color: blue;
+	color: white;
+	padding: 20px;
+}
+
+.deskripsi{
+	 font-weight: bold;
+}
+.angka{
+	padding:20px;
+}
+
+.div-utama{
+	max-width: 1080px;
+	margin: 20px auto;
+	background-color: white;
+	padding: 15px;
+	overflow: hidden;
+}
+
+
+
+.kiri {
+	padding: 10px;
+    float: left;
+    width: 640px;
+	background-color: white;
+	width: 75%;
+}
+.navigasi ul {
+	list-style: none;
+	padding:0px;
+	margin: 0;
+	overflow: hidden;
+	background-color: darkblue; 
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.navigasi li{
+	float: left;
+}
+
+.navigasi li a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block; 
+}
+
+.navigasi li a:hover{
+	background-color: yellow;
+	transition-duration: 1s;
+}
+.infor {
+	float:left;
+	background-color: cyan;
+	height:684px;
+	width: 25%;
+}
+
+footer {
+	clear: both;
+	background-color: blue;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	
+}
